@@ -103,6 +103,9 @@ p {
 .my-summary {
   margin-top: 20px;
   background-color: #b1dcff1f;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 1.5;
 
   border-color: navy;
   border-radius: 5px;
@@ -283,12 +286,11 @@ p {
   margin: 20px 4px 0 24px;
 }
 
-.event-experience-container
-{
+.event-experience-container {
   margin: 20px 4px 0 22px;
 }
 
-.sidebar-title-event{
+.sidebar-title-event {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
@@ -395,6 +397,7 @@ p {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+
   line-height: 24px;
   color: #161d2a;
 }

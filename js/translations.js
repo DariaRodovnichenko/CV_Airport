@@ -4,19 +4,23 @@ const translations = {
     aboutMe: [
       {
         name: 'Daria Rodovnichenko',
-        profession: 'Senior Barista | Event & Hospitality Professional',
+        profession: 'Customer Service | Operations Coordination',
+        // 'Operations Coordination | International Guest Relations',
         summary:
-          'Experienced barista and hospitality professional with more than 10 years of experience in high-paced environments. Highly organised, hardworking and efficient, with strong expertise in high-volume coffee service, customer interaction and event operations. Known for speed, consistency, professionalism and the ability to maintain high service standards under pressure.',
+          'Customer service and operations professional with over 10 years of experience in hospitality, international events, and operational coordination. Experienced in team supervision, complaint resolution, handling unexpected situations, and maintaining operational procedures. Organised, adaptable, and comfortable in fast-paced multicultural environments, I am now seeking to transfer my experience to the aviation industry and develop a career in passenger and ground services.',
 
         skills: 'Key Skills',
         list: [
-          'More than 10 years of professional barista and hospitality experience.',
-          'Fast and consistent preparation of espresso-based beverages in high-volume environments.',
-          'Strong workflow organisation, multitasking and prioritisation during peak service.',
-          'Professional customer service with a calm, efficient and solution-oriented approach.',
-          'Advanced knowledge of espresso extraction, milk texturing and coffee quality standards.',
-          'Experience adapting quickly to different teams, venues, equipment and event setups.',
-          'Reliable, punctual and comfortable working independently or as part of a team.',
+          'Professional customer service and client-focused assistance.',
+          'Daily operations coordination and priority management.',
+          'Team supervision and staff support.',
+          'Complaint resolution and incident management.',
+          'Cash handling, reconciliation and reporting.',
+          'Compliance with internal and safety procedures.',
+          'Cross-cultural communication and international guest relations.',
+          'Ability to work efficiently under pressure.',
+          'Operational reporting and administrative documentation.',
+          'Flexibility, reliability and strong organisational skills.',
         ],
       },
     ],
@@ -25,23 +29,25 @@ const translations = {
     workExperienceTitle: 'Work Experience',
     workExperience: [
       {
-        title: 'Barista',
-        company: 'Ordinary Man Sàrl | Lausanne, Switzerland',
-        period: 'February 2026 - Present',
-        responsibilities: [
-          'Prepare and serve high-quality coffee beverages in a fast-paced specialty coffee environment.',
-          'Maintain speed, consistency and service standards during peak periods.',
-          'Provide professional customer service and support efficient daily operations.',
-        ],
-      },
-      {
         title: 'Duty Host',
         company: 'Blue Entertainment AG | Geneva, Switzerland',
         period: 'April 2026 - Present',
         responsibilities: [
-          'Coordinate daily operations and support the team during busy cinema and event periods.',
-          'Supervise service quality, cash handling, opening and closing procedures, and operational priorities.',
-          'Handle customer requests and incidents calmly and professionally in a high-paced environment.',
+          'Coordinate daily operations and team priorities.',
+          'Supervise customer reception and compliance with service standards.',
+          'Handle customer complaints and resolve operational incidents.',
+          'Perform cash reconciliation, investigate discrepancies and prepare daily reports.',
+          'Supervise opening, closing, and safety procedures.',
+        ],
+      },
+      {
+        title: 'Barista',
+        company: 'Ordinary Man Sàrl | Lausanne, Switzerland',
+        period: 'February 2026 - Present',
+        responsibilities: [
+          'Deliver professional customer service in a busy international environment.',
+          'Maintain service efficiency, accuracy and quality during peak periods.',
+          'Support daily operations and coordinate tasks with colleagues.',
         ],
       },
       {
@@ -49,20 +55,20 @@ const translations = {
         company: 'Blue Entertainment AG | Geneva, Switzerland',
         period: 'August 2025 - April 2026',
         responsibilities: [
-          'Worked across bar, shop, ticketing and customer service in a high-volume entertainment environment.',
-          'Supported event operations, cash handling, service preparation and closing procedures.',
-          'Adapted quickly between different tasks and service areas depending on operational needs.',
+          'Provided customer assistance across ticketing, retail and hospitality services.',
+          'Handled payments and supported daily operational and closing procedures.',
+          'Adapted to changing operational priorities in a high-traffic environment.',
         ],
       },
       {
-        title: 'Barista',
+        title: 'Freelance Barista | Event Hospitality',
         company: 'Freelance | Geneva, Switzerland',
         period: 'September 2024 - March 2026',
         responsibilities: [
-          'Provided professional barista services for cafés, private clients and events.',
-          'Delivered fast and consistent coffee service in high-volume and premium hospitality environments.',
+          'Delivered customer service at international corporate events and premium venues.',
+          'Worked with multicultural teams and adapted to different service protocols.',
           'Adapted quickly to different teams, venues, equipment and service standards.',
-          'Maintained a professional, efficient and customer-focused approach during busy service periods.',
+          'Maintained professional presentation and efficient service under pressure.',
         ],
       },
       {
@@ -70,19 +76,20 @@ const translations = {
         company: 'MAME Romandie GmbH | Geneva, Switzerland',
         period: 'September 2023 - August 2024',
         responsibilities: [
-          'Advised customers on coffee selection and provided attentive, professional service.',
-          'Supported daily operations while maintaining quality and service standards during busy periods.',
+          'Advise customers and deliver personalised service in an international environment.',
+          'Supported daily operations and maintained service quality during busy periods.',
         ],
       },
       {
-        title: 'Co-Owner and Brand Barista',
+        title: 'Co-Owner and Operations Manager',
         company: 'Industrial Coffee | Kyiv, Ukraine',
         period: 'July 2020 - May 2023',
         responsibilities: [
-          'Managed daily café operations, including staff scheduling, stock control and supplier coordination.',
-          'Optimised workflows to improve service speed, efficiency and profitability.',
-          'Trained and onboarded team members to maintain consistent coffee and customer service standards.',
-          'Led service and operational improvements in a fast-paced hospitality environment.',
+          'Managed daily business operations, staff scheduling and operational priorities.',
+          'Coordinated suppliers and inventory control and administrative activities.',
+          'Recruited, trained and supported team members to maintain service standards.',
+          'Improved operational processes, service efficiency and business performance.',
+          'Handled customer relations and resolved operational issues.',
         ],
       },
       {
@@ -103,11 +110,11 @@ const translations = {
         ],
       },
       {
-        title: 'Barman-Administrator',
+        title: 'Bar Administrator',
         company: 'Camden Coffee Shop| Kyiv, Ukraine',
         period: 'September 2016 - April 2017',
         responsibilities: [
-          'Managed daily service and administrative tasks while handling multiple operational priorities.',
+          'Supported administrative operations, customer service and daily task coordination.',
         ],
       },
     ],
@@ -129,18 +136,19 @@ const translations = {
       {
         title: 'World Economic Forum, Davos',
         description:
-          'Barista for the Qatar Pavilion in collaboration with Acasa Catering',
+          'Guest service at the Qatar Pavilion in collaboration with ACASA Catering',
         period: 'January 2026',
       },
       {
         title: 'Cartier Boutique, Geneva',
         description:
-          'Coffee service for clients in a premium retail environment',
-        period: 'Pre-Christmas 2025',
+          'Premium guest hospitality and coffee service for boutique clients',
+        period: 'December 2025',
       },
       {
         title: 'World of Coffee (WOC), Geneva',
-        description: 'Barista for the Eureka stand',
+        description:
+          'Customer reception and coffee service at the Eureka stand',
         period: 'June 2025',
       },
     ],
@@ -171,13 +179,13 @@ const translations = {
       {
         title: 'Tech Skills',
         skills: [
-          'Espresso extraction & grinder calibration',
-          'Milk texturing & latte art',
-          'High-volume coffee service',
-          'POS & cash handling',
-          'Stock management',
-          'Opening & closing procedures',
           'Microsoft Office & Google Workspace',
+          'Digital tools and administrative documentation',
+          'Point-of-sale systems and payment processing',
+          'Cash reconciliation and daily reporting',
+          'Inventory management and stock control',
+          'Opening, closing procedures and safety procedures',
+          'Operational coordination and task management',
         ],
       },
     ],
@@ -185,10 +193,10 @@ const translations = {
       {
         title: 'Soft Skills',
         skills: [
-          'Fast and efficient under pressure',
-          'Highly organised and reliable',
-          'Strong team spirit and adaptability',
-          'Professional presentation and customer service',
+          'Customer-focused and solution-oriented',
+          'Organised, responsible and reliable',
+          'Excellent teamwork and adaptability',
+          'Strong interpersonal communication skills',
           'Independent and proactive',
         ],
       },
@@ -207,20 +215,23 @@ const translations = {
     aboutMe: [
       {
         name: 'Daria Rodovnichenko',
-        profession:
-          'Barista expérimentée | Événementiel & Hôtellerie-Restauration',
+        profession: 'Service Client | Coordination Opérationnelle',
+        // 'Coordination Opérationnelle | Accueil International',
         summary:
-          "Barista expérimentée et gestionnaire de café avec plus de 9 ans d'expérience dans la serviceclient, la gestion d'équipe et les opérations commerciales. Solide expériance dans l'augmentation des ventes et l'optimisation des opérations dans des environnements dynamiques et à rythme soutenu. Passionnée par la culture du café et dédiée à offrir un service exceptionnel.",
+          "Professionnelle du service client avec plus de 10 ans d'expérience dans l'hôtellerie-restauration, l'événementiel international et la coordination opérationnelle. Expérience confirmée dans la supervision d'équipes, la gestion des réclamations, la résolution de situations imprévues et le respect des procédures internes. Organisée, polyvalente et à l'aise dans des environnements dynamiques et multiculturels, je souhaite aujourd'hui mettre mes compétences au service du secteur aéroportuaire et évoluer dans les opérations d'assistance aux passagers.",
 
         skills: 'Compétences Clés',
         list: [
-          "Plus de 10 ans d'expérience professionnelle en barista et en hospitalité.''Plus de 10 ans d'expérience professionnelle en barista et en hospitalité.",
-          "Préparation rapide et régulière de boissons à base d'espresso dans des environnements à haut volume.",
-          'Excellente organisation du travail, gestion des priorités et multitâche pendant les périodes de forte affluence.',
-          'Service client professionnel, calme, efficace et orienté solutions.',
-          "Très bonne maîtrise de l'extraction espresso, du travail du lait et des standards de qualité du café.",
-          "Grande capacité d'adaptation à différentes équipes, lieux, machines et configurations événementielles.",
-          "Fiable, ponctuelle et à l'aise aussi bien en autonomie qu'en équipe.",
+          'Accueil et assistance à la clientèle.',
+          'Coordination des opérations quotidiennes et gestion des priorités.',
+          "Supervision d'équipe et accompagnement des collaborateurs.",
+          'Gestion des réclamations et résolution des incidents.',
+          'Contrôle des caisses, rapprochement et reporting quotidien.',
+          'Respect des procédures intérne et de sécurité.',
+          'Communication interculturelle et accueil international.',
+          'Capacité à travailler efficacement sous pression.',
+          'Rédaction de rapports opérationnels et de documents administratifs.',
+          "Flexibilité, fiabilité et sens de l'organisation.",
         ],
       },
     ],
@@ -229,44 +240,45 @@ const translations = {
     workExperienceTitle: 'Expérience Professionnelle',
     workExperience: [
       {
+        title: 'Duty Host',
+        company: 'Blue Entertainment AG | Genève, Suisse',
+        period: 'Avril 2026 - Présent',
+        responsibilities: [
+          "Coordination des opérations quotidiennes et des priorités de l'équipe.",
+          "Supervision de l'accueil client et du respect des standards de service.",
+          'Gestion des réclamations et résolution des incidents opérationnels.',
+          'Contrôle des caisses, vérification des écarts et rédaction de rapports quotidiens.',
+          "Supervision des procédures d'ouverture, de fermeture et de sécurité.",
+        ],
+      },
+      {
         title: 'Barista',
         company: 'Ordinary Man Sàrl | Lausanne, Suisse',
         period: 'Février 2026 - Présent',
         responsibilities: [
-          'Préparation et service de boissons café de haute qualité dans un environnement de specialty coffee à rythme soutenu.',
-          'Maintien de la rapidité, de la régularité et des standards de service pendant les périodes de forte affluence.',
-          'Service client professionnel et soutien aux opérations quotidiennes.',
-        ],
-      },
-      {
-        title: 'Duty Host',
-        company: 'Blue Entertainment AG | Genève, Suisse',
-        period: 'Mars 2026 - Présent',
-        responsibilities: [
-          "Coordination des opérations quotidiennes et soutien de l'équipe pendant les périodes de forte affluence et les événements.",
-          "Supervision de la qualité du service, des caisses, des procédures d'ouverture et de fermeture et des priorités opérationnelles.",
-          'Gestion des demandes et incidents clients avec calme et professionnalisme dans un environnement à rythme soutenu.',
+          "Accueil et service professionnel auprès d'une clientèle variée et internationale.",
+          'Maintien de la rapidité, de la précision et de la qualité du service pendant les périodes de forte affluence.',
+          "Participation aux opérations quotidiennes et coordination avec l'équipe.",
         ],
       },
       {
         title: 'Allrounder',
         company: 'Blue Entertainment AG | Genève, Suisse',
-        period: 'Août 2025 - Mars 2026',
+        period: 'Août 2025 - Avril 2026',
         responsibilities: [
-          'Travail polyvalent au bar, shop, billetterie et service client dans un environnement à forte affluence.',
-          'Soutien aux opérations événementielles, aux caisses, à la préparation du service et aux procédures de fermeture.',
-          'Adaptation rapide entre différents postes et zones de service selon les besoins opérationnels.',
+          'Accueil et assistance clientèle à la billetterie, au point de vente et dans les espaces de restauration.',
+          'Gestion des paiements et participation aux opérations quotidiennes et aux procédures de fermeture.',
+          'Adaptation rapide aux changements de priorités dans un environnement à forte affluence.',
         ],
       },
       {
-        title: 'Barista',
-        company: 'Freelance | Geneva, Switzerland',
+        title: 'Barista indépendante | Événementiel',
+        company: 'Freelance | Genève, Suisse',
         period: 'Septembre 2024 - Mars 2026',
         responsibilities: [
-          'Prestations professionnelles de barista pour des cafés, clients privés et événements.',
-          "Service café rapide et régulier dans des environnements à haut volume et de l'hospitalité premium.",
-          'Adaptation rapide à différentes équipes, lieux, équipements et standards de service.',
-          "Maintien d'une approche professionnelle, efficace et orientée client pendant les périodes de forte affluence.",
+          "Accueil et service client lors d'événements internationaux et dans des établissements haut de gamme.",
+          'Collaboration avec des équipes multiculturelles et adaptation aux différents protocoles de service.',
+          "Maintien d'une présentation professionnelle et d'un service efficace sous pression.",
         ],
       },
       {
@@ -274,19 +286,20 @@ const translations = {
         company: 'MAME Romandie GmbH | Genève, Suisse',
         period: 'Septembre 2023 - Août 2024',
         responsibilities: [
-          "Conseil aux clients dans le choix des cafés et offre d'un service attentif et professionnel.",
-          'Soutien aux opérations quotidiennes tout en maintenant les standards de qualité et de service pendant les périodes de forte affluence.',
+          "Conseil personnalisé et accueil d'une clientèle internationale.",
+          'Participation aux opérations quotidiennes et maintien de la qualité du service en période de forte affluence.',
         ],
       },
       {
-        title: 'Copropriétaire et Brand Barista',
+        title: 'Copropriétaire et Responsable des Opérations',
         company: 'Industrial Coffee | Kyiv, Ukraine',
         period: 'Juillet 2020 - Mai 2023',
         responsibilities: [
-          'Gestion des opérations quotidiennes du café, y compris la planification des équipes, la gestion des stocks et la coordination avec les fournisseurs.',
-          "Optimisation des processus de travail afin d'améliorer la rapidité du service, l'efficacité et la rentabilité.",
-          "Formation et intégration des nouveaux membres de l'équipe afin de garantir des standards constants en matière de café et de service client.",
-          "Mise en place d'améliorations opérationnelles et de service dans un environnement d'hospitalité à rythme soutenu.",
+          'Gestion des opérations quotidiennes, planification des équipes et organisation des priorités.',
+          'Coordination des fournisseurs, gestion des stocks et suivi administratif.',
+          'Recrutement, formation et accompagnement des collaborateurs afin de maintenir les standards de service.',
+          "Amélioration des procédures opérationnelles, de l'efficacité du service et de la performance de l'entreprise.",
+          'Gestion de la relation client et résolution des problèmes opérationnels.',
         ],
       },
       {
@@ -294,7 +307,7 @@ const translations = {
         company: 'Filomena SA | Genève, Suisse',
         period: 'Juillet 2022 - Mars 2023',
         responsibilities: [
-          'Service client rapide et attentif tout en maintenant les standards de qualité pendant les périodes de forte affluence.',
+          'Service client attentif et maintien des standards de qualité pendant les périodes de forte affluence.',
         ],
       },
       {
@@ -333,18 +346,18 @@ const translations = {
       {
         title: 'World Economic Forum, Davos',
         description:
-          'Barista pour le Pavillon du Qatar en collaboration avec Acasa Catering',
+          'Accueil et service au Pavillon du Qatar en collaboration avec ACASA Catering',
         period: 'Janvier 2026',
       },
       {
         title: 'Boutique Cartier, Genève',
         description:
-          'Service café pour les clients dans un environnement retail premium',
+          'Accueil haut de gamme et service café pour la clientèle de la boutique',
         period: 'Décembre 2025',
       },
       {
         title: 'World of Coffee (WOC), Genève',
-        description: 'Barista pour le stand Eureka',
+        description: 'Accueil clientèle et service café sur le stand Eureka',
         period: 'Juin 2025',
       },
     ],
@@ -369,17 +382,19 @@ const translations = {
         period: 'Septembre 2010 - Septembre 2015',
       },
     ],
+
+    // TECH Skills
     techSkills: [
       {
-        title: 'Compétences Techniques',
+        title: 'Compétences techniques et opérationnelles',
         skills: [
-          'Extraction espresso & réglage du moulin',
-          'Travail du lait & latte art',
-          'Service café à haut volume',
-          'Gestion de caisse & encaissements',
-          'Gestion des stocks',
-          "Procédures d'ouverture et de fermeture",
           'Microsoft Office & Google Workspace',
+          'Outils numériques et documentation administrative',
+          'Systèmes de caisse et traitement des paiements',
+          'Rapprochementdes caisses et rapports quotidiens',
+          'Gestion des stocks et contrôle des inventaires',
+          "Procédures d'ouverture, de fermeture et de sécurité",
+          'Coordination opérationnelle et gestion des tâches',
         ],
       },
     ],
@@ -387,10 +402,11 @@ const translations = {
       {
         title: 'Compétences Personnelles',
         skills: [
-          'Rapide et efficace sous pression',
-          'Très organisée et fiable',
-          "Excellent esprit d'équipe et grande capacité d'adaptation",
-          'Présentation professionnelle et excellent sens du service',
+          'Sens de service et orirentation client',
+          'Calme et efficace sous pression',
+          'Organisée, responsable et fiable',
+          "Esprit d'équipe et grande capacité d'adaptation",
+          'Excellentes compétences relationnelles',
           'Autonome et proactive',
         ],
       },
